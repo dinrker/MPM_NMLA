@@ -1,6 +1,6 @@
 # Ray_Learning_Methods
 Two methods will be introduced here to detect ray directions for wave field data:  
 
-\item MPM
+- Matrix Pencil Method (MPM)
 
-\item NMLA
+- Numerical Microlocal Analysis (NMLA)
