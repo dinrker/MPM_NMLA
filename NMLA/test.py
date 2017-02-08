@@ -27,3 +27,6 @@ ex_ang = math.atan2(y0-ys,x0-xs) + 2*np.pi
 print '\nThe exact ray direction:', ex_ang/np.pi, r'$\pi$', '\n'
 print 'The ray direction estimated ny NMLA:', est_ang/np.pi, r'$\pi$', '\n'
 print 'Relative error:', abs(est_ang - ex_ang)/abs(ex_ang)
+
+
+# Compared to MPM, NMLA is more stable, it allows much more noisy level to the source, but MPM is very sensitive to the noise.
